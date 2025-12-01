@@ -14,13 +14,9 @@ body {
 
 #content {
           flex: 1;
-          padding: 0px 80px;
+          padding: 200px 300px 0px 300px;
           display: flex;
           flex-direction: column;
-}
-
-header {
-          margin-top: 100px;
 }
 
 .flex-1 {
@@ -32,6 +28,29 @@ footer {
           align-items: center;
           justify-content: center;
           margin: 20px 0px;
+}
+
+#frame {
+          position: fixed;
+          top: 0;
+          left: 0;
+          margin: 0pc;
+          width: 100vw;
+          height: 100vh;
+          pointer-events: none;
+}
+
+#flower-frame-one {
+          position: absolute;
+          top: 0;
+          left: 0;
+}
+
+#flower-frame-two {
+          position: absolute;
+          transform: rotate(180deg);
+          bottom: 0;
+          right: 0;
 }
 
 h1 {
